@@ -1,15 +1,16 @@
 .nav {
-    background-color: #090909;
+    /* background-color: #090909; */
     overflow: hidden;
     justify-content: center;
     font-weight: bold;
+
 }
 
 .nav a {
     font-size: 20px;
     text-align: center;
     float:left;
-    color: #f2f2f2;
+    color: #000000;
     text-decoration: none;
     padding: 10px 12px;
     margin: 5px;
@@ -18,9 +19,31 @@
 .nav a:hover{
     background-color: #6d6b6c;
     color:#0b0a0b;
+    border-radius: 7px;
 }
 .nav a.active{
     background-color: #FBCFE8;
     color:#090909;
     font-weight: bold;
+    border-radius: 7px;
+}
+.nav a.btn2{
+    background-color: #84A1BE;
+    color:#FFFFFF;
+    border-radius: 7px;
+}
+.nav a.btn1{
+    background-color: #FFB400;
+    color:#FFFFFF;
+    border-radius: 7px;
+}
+.nav a.btn3{
+    background-color: #84A1BE;
+    color:#FFFFFF;
+    border-radius: 7px;
+}
+.nav a.btn4{
+    background-color: #84A1BE;
+    color:#FFFFFF;
+    border-radius: 7px;
 }
