@@ -2,6 +2,7 @@
     background-color: #090909;
     overflow: hidden;
     justify-content: center;
+    font-weight: bold;
 }
 
 .nav a {
@@ -10,6 +11,16 @@
     float:left;
     color: #f2f2f2;
     text-decoration: none;
-    padding: 10px;
+    padding: 10px 12px;
+    margin: 5px;
+}
 
+.nav a:hover{
+    background-color: #6d6b6c;
+    color:#0b0a0b;
+}
+.nav a.active{
+    background-color: #FBCFE8;
+    color:#090909;
+    font-weight: bold;
 }
