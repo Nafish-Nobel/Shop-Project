@@ -56,10 +56,9 @@
 /* footer */
 
 .footer{
-    display: flex;
+     display: flex;
     flex-direction: row;
-    /* row-gap: 10px; */
-    justify-content: space-between;
+    justify-content:space-evenly;
     background-color: #F3EEEA;
     color: black;
 }
@@ -87,23 +86,31 @@
     list-style:none;
 }
 .payment1{
-    height:100px;
-    width: 100px;
+    height:auto;
+    width: 20%;
+    padding:5px;
 }
 .payment2{
-    height: 70px;
-    width: 80px;
+    height:auto;
+    width: 20%;
+    padding:5px;
 }
 .payment3{
-    height: 90px;
-    width: 100px;
+    height:auto;
+    width: 20%;
+    padding:5px;
 }
 .payment4{
-    height: 90px;
-    width: 100px;
+    height:auto;
+    width: 20%;
+    padding:5px;
 }
 .social-media a{
     text-decoration: none;
+}
+.e-shop{
+    text-decoration: none;
+    color: #7d7ea9;
 }
 
 /* footer end */
