@@ -59,9 +59,12 @@
     display: flex;
     flex-direction: row;
     /* row-gap: 10px; */
-    justify-content: space-evenly;
+    justify-content: space-between;
     background-color: #F3EEEA;
     color: black;
+}
+.bg-color{
+    background-color: #F3EEEA;
 }
 .bg-warnings{
     /* background-color: #A9A9A9; */
@@ -76,8 +79,12 @@
     padding-right: 3em;
 }
 .image{
-    height: 200px;
-    width: 200px;
+    height: 20%;
+    width: auto;
+}
+
+.opening-hours-ul{
+    list-style:none;
 }
 .payment1{
     height:100px;
