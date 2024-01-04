@@ -1,8 +1,11 @@
+
 .nav {
     /* background-color: #090909; */
     overflow: hidden;
     justify-content: center;
     font-weight: bold;
+    /* padding: 10px;
+    padding-top: 15px; */
 
 }
 
@@ -16,10 +19,10 @@
     margin: 5px;
 }
 
-.nav a:hover{
-    background-color: #6d6b6c;
+.nav a.ahov:hover{
+    background-color: #7d7ea9;
     color:#0b0a0b;
-    border-radius: 7px;
+    border-radius: 10px;
 }
 .nav a.active{
     background-color: #FBCFE8;
@@ -47,3 +50,9 @@
     color:#FFFFFF;
     border-radius: 7px;
 }
+
+/* nav section css end */
+/*  */
+
+
+/*  */
