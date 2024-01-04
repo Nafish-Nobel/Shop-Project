@@ -57,9 +57,42 @@
 
 .footer{
     display: flex;
+    flex-direction: row;
+    /* row-gap: 10px; */
     justify-content: space-evenly;
-    background-color: black;
-    color: #FFFFFF;
+    background-color: #F3EEEA;
+    color: black;
 }
-
+.bg-warnings{
+    /* background-color: #A9A9A9; */
+    padding:15px;
+    padding-left: 3em;
+    padding-right: 3em;
+}
+.bg-darks{
+    /* background-color: #A9A9A9; */
+    padding:15px;
+    padding-left: 3em;
+    padding-right: 3em;
+}
+.image{
+    height: 200px;
+    width: 200px;
+}
+.payment1{
+    height:100px;
+    width: 100px;
+}
+.payment2{
+    height: 70px;
+    width: 80px;
+}
+.payment3{
+    height: 90px;
+    width: 100px;
+}
+.payment4{
+    height: 90px;
+    width: 100px;
+}
 /* footer end */
