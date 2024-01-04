@@ -52,7 +52,14 @@
 }
 
 /* nav section css end */
-/*  */
 
+/* footer */
 
-/*  */
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    color: #FFFFFF;
+}
+
+/* footer end */
