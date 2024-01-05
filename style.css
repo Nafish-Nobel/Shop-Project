@@ -57,6 +57,30 @@ html{
 }
 
 /* nav section css end */
+/* Contact start */
+.grid-con{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+     /* background-color: #7d7ea9;  */
+    justify-content: center;
+    column-gap: 80px;
+   
+}
+.con-img{
+    height: auto;
+    width: 15%;
+    border-radius: 3%;
+}
+.con-info{
+    font-weight: 600;
+}
+.forms{
+    text-align: center;
+    max-width: 800px;
+    margin: 50px 60px;
+    background-color: #f4f4f4;
+}
+/* contact end */
 /* About US */
 .grid-container{
     display: grid;
