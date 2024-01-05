@@ -60,8 +60,15 @@ html{
 /* About US */
 .grid-container{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    /* grid-template-columns: 1fr 1fr; */
     justify-items: center;
+    column-gap: 10px;
+    /* row-gap: 1em; */
+}
+.grid-one img{
+    height: auto;
+    width: 30em;
 }
 .grid-first img{
     border-radius: 1em;
