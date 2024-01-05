@@ -1,4 +1,9 @@
+/* base */
+html{
+    scroll-behavior: smooth;
+}
 
+/* nav start */
 .nav {
     /* background-color: #090909; */
     overflow: hidden;
@@ -52,16 +57,51 @@
 }
 
 /* nav section css end */
+/* About US */
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+}
+.grid-first img{
+    border-radius: 1em;
+    margin-left: 5px;
+}
+.grid-second{
+    font-family: Arial, sans-serif;
+}
+ .grid-second p{
+    line-height: 1.6;
+    margin-bottom: 15px;
+    background-color: #F5F7F8;
+    color: #43445e;
+    padding: 1em;
+    border-radius: 5%;
+  }
 
+strong{
+    font-weight: bold;
+    
+  }
+  em {
+    font-style: italic;
+  }
+/* About US end */
 /* footer */
 
 .footer{
      display: flex;
     flex-direction: row;
-    justify-content:space-evenly;
+    column-gap: 3rem;
+    justify-content:space-between;
     background-color: #F3EEEA;
     color: black;
 }
+.footer p{
+    background-color: #C8C6C6;
+    padding: 1em;
+    border-radius: 5%;
+  }
 .bg-color{
     background-color: #F3EEEA;
 }
