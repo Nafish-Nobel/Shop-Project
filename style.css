@@ -58,6 +58,15 @@ html{
 
 /* nav section css end */
 
+/* Top banner start */
+
+.bg-image{
+    background-image: url("");
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+}
+/* Top banner end */
+
 /* Letest Demo Video */
 .videoWrapper {
     position: relative;
