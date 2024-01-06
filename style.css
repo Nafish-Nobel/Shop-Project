@@ -59,7 +59,47 @@ html{
 /* nav section css end */
 /* top-banner end */
 
+.ban-img{
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
+.title-text{
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+    color: white;
+    font-size: 2em;
+    font-weight:400;
+    font-family: 'Inria Serif', serif;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+    
+}
+.txt1{
+    font-size: 70px;
+    font-weight: bold;
+    color: #FFF7D4;
+    font-family: 'Inria Serif', serif;
+
+}
+
+.txt2{
+    font-size: 70px;
+    font-weight: bold;
+    color: #EEC759;
+    font-family: 'Inria Serif', serif;
+}
 
 
 /* top-banner end */
