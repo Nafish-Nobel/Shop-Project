@@ -58,30 +58,44 @@ html{
 
 /* nav section css end */
 
-/* shop-card option */
-.card-sec{
-    border: 1px solid #43445e;
+/* Customer Of This Month */
+.Customer-card{
+    /* border: 1px solid #43445e; */
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    margin: 20px;
-    padding: 10px;
+    width: 30%;
+    height: 10%;
+    padding: 2px;
+    margin: 5px;
 
 }
-.card-image{
-    width:25%;
+.Customer-card-image{
+    width: 100%;
     height: auto;
+    position: relative;
+
 }
-.card-text{
+.Customer-card-text{
     text-align: center;
-    padding: 10px;
+    padding: 5px;
     font-weight: bold;
     font-size: x-large;
 }
 
-.shop-card-sec{
-    float: right;
-}
+.Customer-banner{
 
-/* top-banner end */
+    display: flex;
+    flex-direction: row;
+    flex-basis:10%;
+    align-items: center;
+    justify-self:center;
+    padding-left: 5ric ;
+    margin-left: 3ric;
+    position: relative;
+
+
+}
+/*Customer Of This Month */
+/* top-banner start*/
 
 .ban-img{
     filter: blur(2px);
