@@ -58,10 +58,52 @@ html{
 
 /* nav section css end */
 
+/* Home banner start */
+
+.Home-card{
+    /* border: 1px solid #43445e; */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 30%;
+    height: 10%;
+    padding: 0;
+    margin: 0;
+    
+
+}
+.Home-card-image{
+    width: 100%;
+    height: auto;
+    position: relative;
+
+}
+/* .Home-card-text{
+    text-align: center;
+    padding: 5px;
+    font-weight: bold;
+    font-size: x-large;
+} */
+
+.Home-banner{
+
+    display: flex;
+    flex-direction: row;
+    flex-basis:10%;
+    align-items: center;
+    justify-self:center;
+    padding-left: 5ric ;
+    margin-left: 3ric;
+    position: relative;
+    margin-top: 2ric;
+
+}
+
+/* Home banner end */
+
 /* category-a */
 
 .category-a{
     text-decoration: none;
+    color: #000000;
 }
 
 /* category-a */
@@ -171,6 +213,39 @@ html{
 }
 
 /* contact end */
+
+/* Shop card start */
+
+.Shop-banner{
+    display: flex;
+    flex-direction: row;
+    /* flex-basis: 10px; */
+    overflow: hidden;
+   align-items: center;
+   /* justify-self: center; */
+    padding-left: 5ric;
+    margin-left: 3ric;
+    position: relative;
+    /* background-color: #7d7ea9; */
+}
+
+.Shop-card{
+    box-shadow:0 4px 8px solid rgba(0,0,0,0.1);
+    height: 10%;
+    width: 30%;
+    padding: 2px;
+    margin: 5px;
+    
+}
+
+.Shop-images{
+    height: auto;
+    width: 100%;
+    position:relative;
+
+
+}
+/* Shop banner end */
 /* About US */
 .grid-container{
     display: grid;
