@@ -231,10 +231,12 @@ html{
 
 .Shop-card{
     box-shadow:0 4px 8px solid rgba(0,0,0,0.1);
-    height: 10%;
-    width: 30%;
+    height: 5%;
+    width: 20%;
     padding: 2px;
     margin: 5px;
+    border: 1px solid #000000;
+    background-color: #EEC759;
     
 }
 
@@ -242,9 +244,27 @@ html{
     height: auto;
     width: 100%;
     position:relative;
-
-
 }
+
+.Bag-button-sec{
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+}
+
+.bag-button{
+    text-align: center;
+    background-color:#84A1BE;
+    color: white;
+    text-decoration: none;
+    padding: 15px 35px;
+    margin: 5px;
+    border-radius: 7px;
+    font-weight: bolder;
+    font-size: 20px;
+    box-shadow:0 4px 8px solid rgba(0,0,0,0.1);
+}
+
 /* Shop banner end */
 /* About US */
 .grid-container{
