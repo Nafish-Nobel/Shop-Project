@@ -215,28 +215,32 @@ html{
 /* contact end */
 
 /* Shop card start */
-
+.shop-card-first{
+    background-color: #7d7ea9;
+}
 .Shop-banner{
     display: flex;
     flex-direction: row;
-    /* flex-basis: 10px; */
+    flex-basis: 10px;
     overflow: hidden;
    align-items: center;
-   /* justify-self: center; */
+   justify-self: center;
     padding-left: 5ric;
     margin-left: 3ric;
     position: relative;
-    /* background-color: #7d7ea9; */
+    background-color: #7d7ea9;
+    border-radius: 10px;
 }
 
 .Shop-card{
     box-shadow:0 4px 8px solid rgba(0,0,0,0.1);
-    height: 5%;
-    width: 20%;
-    padding: 2px;
-    margin: 5px;
-    border: 1px solid #000000;
-    background-color: #EEC759;
+    height: auto;
+    width: 25em;
+    padding: 1px;
+    margin: 10px;
+    border-radius: 1%;
+    border: 1px solid #e7e3e3;
+    background-color: #ffffff;
     
 }
 
