@@ -374,3 +374,19 @@ strong{
 }
 
 /* footer end */
+
+
+.banner-design{
+    background-color: #7d7ea9;
+    color: white;
+    padding: 20px;
+    margin: 0px 600px;
+    border-radius: 7px;
+}
+.banr-design{
+    background-color: #7d7ea9;
+    color: white;
+    padding: 20px;
+    margin: 0px 300px;
+    border-radius: 7px;
+}
